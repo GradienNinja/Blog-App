@@ -1,6 +1,6 @@
 # Blog App (Django)
 
-A simple CRUD blog application built with Django — created to practice backend development. It provides the usual blog features (create, read, update, delete posts) and a minimal admin interface. Design and frontend contributions are very welcome!
+A simple CRUD blog application built with Django  created to practice backend development. It provides the usual blog features (create, read, update, delete posts) and a minimal admin interface. Design and frontend contributions are very welcome!
 
 ## Features
 - Create, read, update, delete (CRUD) posts
@@ -9,7 +9,7 @@ A simple CRUD blog application built with Django — created to practice backend
 
 ## Tech
 - Python (Django)
-- SQLite (default) — replaceable with any Django-supported database
+- SQLite (default) replaceable with any Django-supported database
 - (Add any additional libs in `requirements.txt`)
 
 ## Prerequisites
