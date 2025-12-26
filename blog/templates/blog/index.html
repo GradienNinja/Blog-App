@@ -12,6 +12,7 @@
         <p>{{ post.content }}</p>
         <a href="{% url 'create' %}">Create Post</a>
         <a href="{% url 'edit' post.id %}">Edit</a>
+        <a href="{% url 'delete' post.id %}">Delete</a>
         <hr>
     {% empty %}
        <p>No Post Yet</p>
