@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Posts </title>
+  </head>
+  <body>
+    <form  method="post" >
+      {% csrf_token %} 
+      {{ form.as_p }} 
+      <button type="submit">Update</button>
+      <a href="{% url 'home' %}">Cancel</a>
+      </form>
+  </body>
+</html>
